@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFFF;
+}
+
+.logo{
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem ;
+}
+
+.button{
+    background: rgb(10, 153, 254,0.10);
+    width: 150px;
+    height: 40px;
+    border-radius: 10px ;
+    border: none;
+    font-size: 20px;
+    color:#0A99FE;
+    cursor: pointer;
+}
+
+
+.container-section{
+    font-size: 20px;
+    color: #1B1B1B;
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+.title-section{
+    padding: 1rem 0;
+    margin-bottom: 1rem ;
+}
+.card, .card2{
+ display: flex;
+ gap: 30px;
+ overflow-x: auto;
+}
+
+.card li{
+    width:207px;
+    height: 275px;
+    border-radius: 8px;
+    background:#f0f0f0;
+    display: flex;
+    flex-direction: column;  
+}
+
+.card2 li{
+    width:207px;
+    height: 275px;
+    border-radius: 8px;
+    background:#f0f0f0;
+    display: flex;
+    flex-direction: column;  
+}
+
+.img-card{
+    width: 100%;
+    height: 60%;
+    border-radius:8px 8px 0px 0px ;
+}
+
+.titulo-produto{
+    font-size: 20px;
+    font-weight: 500;
+    color: #1B1B1B ;
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.preco-produto{
+    font-size: 16px;
+    color: #868383;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.botão:hover{
+  background:  #0A99FE; 
+  color: #FFFFFF;
+}
