@@ -91,7 +91,7 @@ body{
     text-align: center;
 }
 
-.botão:hover{
+.button:hover{
   background:  #0A99FE; 
   color: #FFFFFF;
 }
