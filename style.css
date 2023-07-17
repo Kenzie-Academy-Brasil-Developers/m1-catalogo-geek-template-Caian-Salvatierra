@@ -38,19 +38,20 @@ body{
     color: #1B1B1B;
     padding: 1.5rem;
     margin: 2rem 0;
+    overflow-x: auto;
 }
 .title-section{
     padding: 1rem 0;
     margin-bottom: 1rem ;
 }
 .card, .card2{
- display: flex;
- gap: 30px;
- overflow-x: auto;
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
 }
 
 .card li{
-    width:207px;
+    min-width:207px;
     height: 275px;
     border-radius: 8px;
     background:#f0f0f0;
@@ -59,7 +60,7 @@ body{
 }
 
 .card2 li{
-    width:207px;
+    min-width:207px;
     height: 275px;
     border-radius: 8px;
     background:#f0f0f0;
@@ -95,3 +96,5 @@ body{
   background:  #0A99FE; 
   color: #FFFFFF;
 }
+
+
